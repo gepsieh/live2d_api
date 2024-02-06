@@ -27,13 +27,14 @@
 	},
     "motions":{
         "idle":[
-            {"file":"motions_idle_0_file_0.mtn","sound":"kippu.wav", "fade_in":2000,"fade_out":2000}
+            {"file":"motions_idle_0_file_0.mtn", "fade_in":2000,"fade_out":2000}
         ],
         "flick_head":[
-            {"file":"motions_tap_1_file_0.mtn","sound":"hai.wav", "fade_in":500,"fade_out":200}
+            {"file":"motions_tap_1_file_0.mtn","sound":"hai.wav", "fade_in":500,"fade_out":200},
+            {"file":"motions_tap_1_file_0.mtn","sound":"omatase.wav", "fade_in":500,"fade_out":200}
         ],
         "tap_body":[
-            {"file":"motions_tap_1_file_0.mtn","fade_in":500, "sound":"omatase.wav", "fade_out":200}
+            {"file":"motions_tap_1_file_0.mtn","fade_in":500, "sound":"kippu.wav", "fade_out":200}
         ]
     },
 	"physics":"physics_0.json"
